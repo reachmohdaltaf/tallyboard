@@ -14,7 +14,7 @@ TallyBoard is a full-stack productivity platform inspired by Trello. It allows u
 ## Tech Stack
 
 * **Framework**: Next.js (App Router)
-* **Database**: PostgreSQL with Prisma ORM
+* **Database**: MonogoDb with Prisma ORM
 * **Authentication**: JSON Web Tokens (JWT) + Middleware
 * **State Management**: TanStack Query
 * **Styling**: TailwindCSS + shadcn/ui + Lucide Icons
@@ -32,7 +32,7 @@ npm install
 2. **Setup `.env` file**
 
 ```
-DATABASE_URL=your_postgres_url
+DATABASE_URL=your_mongo_url
 JWT_SECRET=your_jwt_secret
 ```
 
